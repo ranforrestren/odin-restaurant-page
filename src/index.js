@@ -23,6 +23,10 @@ const domManipulator = (() => {
     const initialSetup = function() {
         const _header = addElement('div', 'header', _root);
         addElement('h1', 'mainTitle', _header, 'Taste of Italy');
+        const _links = addElement('div', 'links', _header);
+        addElement('a', 'home', _links, 'Home');
+        addElement('a', 'menu', _links, 'Menu');
+        addElement('a', 'contact', _links, 'Contact');
         const _mainContent = addElement('div', 'mainContent', _root);
         const _contentBox = addElement('div', 'contentBox', _mainContent);
         addElement('p', 'tagline', _contentBox, "Your new favorite Italian restaurant.");
