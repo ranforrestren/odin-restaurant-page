@@ -70,9 +70,18 @@ body {
     font-size: 1.8rem;
 }
 
+#contentBox h1 {
+    color: white;
+    font-size: 4rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
 #contentBox img {
     width: 300px;
+    height: 300px;
     border-radius: 150px;
+    object-fit: cover;
 }
 
 #footer {

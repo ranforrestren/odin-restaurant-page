@@ -1,6 +1,7 @@
 import pizza from './pizza.jpg';
 import chefIcon from './chefIcon.jpg';
 import homepage from './homepage.js';
+import menu from "./menu.js";
 
 const domManipulator = (() => {
     const _root = document.querySelector('#content');
@@ -28,7 +29,8 @@ const domManipulator = (() => {
         const _links = addElement('div', 'links', _header);
         const _homeButton = addElement('a', 'home', _links, 'Home');
         addListener(_homeButton, homepage.makePage);
-        addElement('a', 'menu', _links, 'Menu');
+        const _menuButton = addElement('a', 'menu', _links, 'Menu');
+        addListener(_menuButton, menu.makePage);
         addElement('a', 'contact', _links, 'Contact');
         const _mainContent = addElement('div', 'mainContent', _root);
         const _contentBox = addElement('div', 'contentBox', _mainContent);
