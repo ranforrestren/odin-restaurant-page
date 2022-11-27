@@ -10,9 +10,9 @@ const menu = (() => {
         domManipulator.addElement('h1', 'menuTitle', _contentBox, "Our Menu:");
         domManipulator.addElement('p', 'pizza1', _contentBox, "Neapolitan Pizza.");
         domManipulator.addElement('img', 'neapolitan', _contentBox, neapolitan);
-        domManipulator.addElement('p', 'pizza1', _contentBox, "Hawaiian Pizza.");
+        domManipulator.addElement('p', 'pizza2', _contentBox, "Hawaiian Pizza.");
         domManipulator.addElement('img', 'hawaiian', _contentBox, hawaiian);
-        domManipulator.addElement('p', 'pizza1', _contentBox, "Spinach Pizza.");
+        domManipulator.addElement('p', 'pizza3', _contentBox, "Spinach Pizza.");
         domManipulator.addElement('img', 'spinach', _contentBox, spinach);
     }
 

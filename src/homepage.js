@@ -7,7 +7,8 @@ const homepage = (() => {
         _contentBox.replaceChildren();
         domManipulator.addElement('p', 'tagline', _contentBox, "Your new favorite Italian restaurant.");
         domManipulator.addElement('img', 'chefIcon', _contentBox, chefIcon);
-        domManipulator.addElement('p', 'bio', _contentBox, "Making pizza since 1978.");
+        domManipulator.addElement('p', 'bio', _contentBox, "Head Chef Tohru.");
+        domManipulator.addElement('p', 'bio2', _contentBox, "Making pizza since 1978.");
     }
 
     return { makePage };
